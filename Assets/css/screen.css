@@ -55,11 +55,11 @@ table {
 /* Hint: html element selectors: html, body, p, h2, etc. */
  
  body {
+  background-color: #9e9e9e; /* www.hexcolortool.com */
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  color: #333;
-  background-color: #9e9e9e; /* www.hexcolortool.com */
   font-size: 1em; /* 18px/18px = 1 */
+  color: #333;
   line-height: 1.25em; /* 22.5px / 18px */
   padding-top: 1.25em; /* 22.5px / 18px */
   padding-bottom: 1.25em; /* 22.5px / 18px */
@@ -83,17 +83,6 @@ p {
   padding-bottom: 1.25em; /* 22.5px / 18px */
 }
 
-header {
-  font-weight: 500;
-  color: #f0ca4c; /* www.hexcolortool.com */
-}
-
-footer {
-  font-size: 0.6400045511434748em; /* 22.5px / 35.156 */
-  padding-top: 1.25em; /* 22.5px / 18px */
-  padding-bottom: 1.25em; /* 22.5px / 18px */
-}
-
 img {
   display: block;
   max-width: 100%;
@@ -101,6 +90,18 @@ img {
 
 /* Layout Styles */
 /* Hint: ID selectors: #header, #navigation, #footer, etc. */
+
+#header {
+  font-weight: 500;
+  color: #f0ca4c; /* www.hexcolortool.com */
+}
+
+#footer {
+  font-size: 0.6400045511434748em; /* 22.5px / 35.156 */
+  color: #333;
+  padding-top: 1.25em; /* 22.5px / 18px */
+  padding-bottom: 1.25em; /* 22.5px / 18px */
+}
 
 /* Module Styles */
 /* Hint: Class selectors: .video, .diagram, .pullquote */
@@ -118,6 +119,34 @@ img {
 .skyline { /*consider removing this image from html, if no longer needed */
   display:none;
 }
+
+.listheader1 { 
+  font-weight: 500;
+  color: #f0ca4c; /* www.hexcolortool.com */
+}
+
+.listheader2 { 
+  font-weight: bold;
+  font-size: 1em; /* 18px/18px = 1 */
+  color: #333; /* www.hexcolortool.com */
+}
+
+.list { 
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1em; /* 18px/18px = 1 */
+  color: #333;  
+  list-style: circle;
+}
+
+.sublist { 
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1em; /* 18px/18px = 1 */
+  color: #333;  
+  list-style: circle inside;
+}
+
 
 /* State Styles */
 /* Hint: JavaScript-based styles: .nojs, .js, .is-active, .is-hidden */
