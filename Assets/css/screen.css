@@ -52,6 +52,7 @@ table {
   http://www.modularscale.com/?18&px&1.25&web&text */
 
 /* Base Styles */
+/* Hint: html element selectors: html, body, p, h2, etc. */
  
  body {
   font-family: 'Open Sans', sans-serif;
@@ -93,17 +94,34 @@ footer {
   padding-bottom: 1.25em; /* 22.5px / 18px */
 }
 
-img{
+img {
   display: block;
   max-width: 100%;
 }
 
 /* Layout Styles */
+/* Hint: ID selectors: #header, #navigation, #footer, etc. */
 
 /* Module Styles */
+/* Hint: Class selectors: .video, .diagram, .pullquote */
+
+.figure {
+  background-image: url(/Assets/img/skyline.jpg); 
+  background-repeat: no-repeat; 
+  background-position: left top; 
+  background-size: 100%;
+  padding-left: 37.5%;
+  padding-right: 37.5%;
+  padding-top: 25%;
+}
+
+.skyline { /*consider removing this image from html, if no longer needed */
+  display:none;
+}
 
 /* State Styles */
+/* Hint: JavaScript-based styles: .nojs, .js, .is-active, .is-hidden */
+/* Within state, repeat the base, layout, and modular structure: */
 
-/* Theme Styles */
-
+/* Media Query Styles */
 
