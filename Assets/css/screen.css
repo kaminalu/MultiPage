@@ -48,6 +48,7 @@ table {
 }
 
 /* Custom site styles */
+
 /*  Using Major Third Modular Scale:
   http://www.modularscale.com/?18&px&1.25&web&text */
 
@@ -93,7 +94,8 @@ img {
 
 #header {
   font-weight: 500;
-  color: #f0ca4c; /* www.hexcolortool.com */
+  color: #f0ca4c; /* www.hexcolortool.com */  
+  padding-bottom: 1em;
 }
 
 #footer {
