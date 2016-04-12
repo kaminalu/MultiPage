@@ -118,6 +118,35 @@ img {
   display:none;
 }
 
+.printcontact {
+  display:none;
+}
+
+.email {
+  padding-left: 3%;
+  padding-right: 3%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.phone {
+  padding-left: 3%;
+  padding-right: 3%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.address {
+  padding-left: 3%;
+  padding-right: 35%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+a.address:hover {
+   display: alt-text;
+   }
+
 .listheader1 { 
   font-weight: 500;
   color: #f0ca4c; /* www.hexcolortool.com */
@@ -134,7 +163,7 @@ img {
   font-weight: 300;
   font-size: 1em; /* 18px/18px = 1 */
   color: #333;  
-  list-style: circle;
+  list-style: circle inside;
 }
 
 .sublist { 

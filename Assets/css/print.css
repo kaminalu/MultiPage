@@ -108,6 +108,10 @@ img {
   display:none;
 }
 
+.contact {
+   display: none
+   }
+
 .listheader1 { 
   font-weight: 500;
   color: #9e9e9e; /* www.hexcolortool.com */
