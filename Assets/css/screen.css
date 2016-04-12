@@ -57,7 +57,7 @@ table {
  
  body {
   background-color: #9e9e9e; /* www.hexcolortool.com */
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 1em; /* 18px/18px = 1 */
   color: #333;
@@ -96,6 +96,7 @@ img {
   font-weight: 500;
   color: #f0ca4c; /* www.hexcolortool.com */  
   padding-bottom: 1em;
+  text-align: center;
 }
 
 #footer {
@@ -109,13 +110,8 @@ img {
 /* Hint: Class selectors: .video, .diagram, .pullquote */
 
 .figure {
-  background-image: url(/Assets/img/skyline.jpg); 
-  background-repeat: no-repeat; 
-  background-position: left top; 
-  background-size: 100%;
-  padding-left: 37.5%;
-  padding-right: 37.5%;
-  padding-top: 25%;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
 }
 
 .skyline { /*consider removing this image from html, if no longer needed */
@@ -149,6 +145,41 @@ img {
   list-style: circle inside;
 }
 
+a.button { /* https://css-tricks.com/examples/ButtonMaker/# */
+   border-top: 1px solid #7a387d;
+   background: #ed96ed;
+   background: -webkit-gradient(linear, left top, left bottom, from(#7a387d), to(#ed96ed));
+   background: -webkit-linear-gradient(top, #7a387d, #ed96ed);
+   background: -moz-linear-gradient(top, #7a387d, #ed96ed);
+   background: -ms-linear-gradient(top, #7a387d, #ed96ed);
+   background: -o-linear-gradient(top, #7a387d, #ed96ed);
+   padding: 2px 9px;
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #252445;
+   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+   font-weight: 400;
+   font-size: 0.8em;
+   text-decoration: none;
+   vertical-align: middle;
+   display: block;
+   }
+   
+a.button:hover {
+   border-top-color: #ed96ed;
+   background: #ed96ed;
+   color: #252445;
+   }
+   
+a.button:active {
+   border-top-color: #f0ca4c;
+   background: #f0ca4c;
+   }
 
 /* State Styles */
 /* Hint: JavaScript-based styles: .nojs, .js, .is-active, .is-hidden */
@@ -156,3 +187,19 @@ img {
 
 /* Media Query Styles */
 
+@media screen and (min-width: 33.333333333333336em) {
+  a.button {
+   font-size: 1em;
+   padding: 5px 20px;
+   display: inline;
+   }
+  .figure {
+  background-image: url(/Assets/img/skyline.jpg); 
+  background-repeat: no-repeat; 
+  background-position: left top; 
+  background-size: 100%;
+  padding-left: 37.5%;
+  padding-right: 37.5%;
+  padding-top: 25%;
+   }
+}
