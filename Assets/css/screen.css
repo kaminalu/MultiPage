@@ -123,24 +123,39 @@ img {
 }
 
 .email {
-  padding-left: 3%;
-  padding-right: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
   display: inline-block;
   vertical-align: middle;
+  color: #252445;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 0.8em;
+  text-decoration: none;
 }
 
 .phone {
-  padding-left: 3%;
-  padding-right: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
   display: inline-block;
   vertical-align: middle;
+  color: #252445;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 0.8em;
+  text-decoration: none;
 }
 
 .address {
-  padding-left: 3%;
-  padding-right: 35%;
+  padding-left: 5%;
+  padding-right: 5%;
   display: inline-block;
   vertical-align: middle;
+  color: #252445;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 0.8em;
+  text-decoration: none;
 }
 
 a.address:hover {
@@ -175,21 +190,9 @@ a.address:hover {
 }
 
 a.button { /* https://css-tricks.com/examples/ButtonMaker/# */
-   border-top: 1px solid #7a387d;
-   background: #ed96ed;
-   background: -webkit-gradient(linear, left top, left bottom, from(#7a387d), to(#ed96ed));
-   background: -webkit-linear-gradient(top, #7a387d, #ed96ed);
-   background: -moz-linear-gradient(top, #7a387d, #ed96ed);
-   background: -ms-linear-gradient(top, #7a387d, #ed96ed);
-   background: -o-linear-gradient(top, #7a387d, #ed96ed);
+   border: 1px solid #7a387d;
    padding: 2px 9px;
-   -webkit-border-radius: 6px;
-   -moz-border-radius: 6px;
-   border-radius: 6px;
-   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   box-shadow: rgba(0,0,0,1) 0 1px 0;
-   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   text-shadow: #333 0 1px 0;
    color: #252445;
    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
    font-weight: 400;
@@ -200,13 +203,12 @@ a.button { /* https://css-tricks.com/examples/ButtonMaker/# */
    }
    
 a.button:hover {
-   border-top-color: #ed96ed;
    background: #ed96ed;
    color: #252445;
    }
    
 a.button:active {
-   border-top-color: #f0ca4c;
+   border: #f0ca4c;
    background: #f0ca4c;
    }
 
