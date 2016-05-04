@@ -67,9 +67,11 @@ table {
   padding-left: 1.125em; /* 4:5 ratio on baseline */
   padding-right: 1.125em; /* 4:5 ratio on baseline */
   text-size-adjust: 100%;
+  text-align: left;
  }
  
  h1 {
+  text-decoration: none;
   font-family: 'Merriweather', serif;
   font-weight: bold;
   color: #f0ca4c; /* www.hexcolortool.com */
@@ -78,15 +80,42 @@ table {
   padding-top: 0.6400045511434748em; /* 22.5px / 35.156 */
   padding-bottom: 0.6400045511434748em; /* 22.5px / 35.156 */
  }
-
+ 
+ h2 {
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  color: #333; /* www.hexcolortool.com */
+  font-size: 1.25em; /* 22.5px / 18px */
+  line-height: 1.2800091022869495; /* 22.5px * 2 / 35.156 */
+  padding-top: 0.6400045511434748em; /* 22.5px / 35.156 */
+  padding-bottom: 0.6400045511434748em; /* 22.5px / 35.156 */
+  text-align: left;
+ }
+ 
+  h3 {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1em; /* 18px/18px = 1 */
+  color: #333;
+  line-height: 1.25em; /* 22.5px / 18px */
+  padding-top: 1.25em; /* 22.5px / 18px */
+  padding-bottom: 1.25em; /* 22.5px / 18px */
+  padding-left: 1.125em; /* 4:5 ratio on baseline */
+  padding-right: 1.125em; /* 4:5 ratio on baseline */
+  text-size-adjust: 100%;
+  text-align: left;
+ }
+ 
 p {
   line-height: 1.25em; /* 22.5px / 18px */
   padding-bottom: 1.25em; /* 22.5px / 18px */
+  text-align: left;
 }
 
 img {
   display: block;
   max-width: 100%;
+  text-align: center;
 }
 
 /* Layout Styles */
@@ -94,9 +123,10 @@ img {
 
 #header {
   font-weight: 500;
-  color: #f0ca4c; /* www.hexcolortool.com */  
-  padding-bottom: 1em;
+  color: #f0ca4c; /* www.hexcolortool.com */
   text-align: center;
+  padding-bottom: 1em;
+  text-decoration: none;
 }
 
 #footer {
@@ -105,6 +135,21 @@ img {
   padding-top: 1.25em; /* 22.5px / 18px */
   padding-bottom: 1.25em; /* 22.5px / 18px */
 }
+
+#posts {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1em; /* 18px/18px = 1 */
+  color: #333;
+  line-height: 1.25em; /* 22.5px / 18px */
+  padding-top: 1.25em; /* 22.5px / 18px */
+  padding-bottom: 1.25em; /* 22.5px / 18px */
+  padding-left: 1.125em; /* 4:5 ratio on baseline */
+  padding-right: 1.125em; /* 4:5 ratio on baseline */
+  text-size-adjust: 100%;
+  text-align: center;
+}
+  
 
 /* Module Styles */
 /* Hint: Class selectors: .video, .diagram, .pullquote */
@@ -192,7 +237,6 @@ a.address:hover {
 a.button { /* https://css-tricks.com/examples/ButtonMaker/# */
    border: 1px solid #7a387d;
    padding: 2px 9px;
-   text-shadow: #333 0 1px 0;
    color: #252445;
    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
    font-weight: 400;
@@ -211,6 +255,81 @@ a.button:active {
    border: #f0ca4c;
    background: #f0ca4c;
    }
+
+.content {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1em; /* 18px/18px = 1 */
+  text-align: left;
+}
+
+.photo {
+  background: #bababa;
+  padding: 12.5%;
+}
+
+.highres {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 0.6400045511434748em; /* 22.5px / 35.156 */
+  text-align: center;
+  padding-bottom: 1.25em; /* 22.5px / 18px */
+}
+
+.text {
+  background: #bababa;
+  padding: 12.5%;
+}
+
+img.avatar {
+    display: block;
+    margin: 0 auto;
+}
+
+p.description {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 1em; /* 18px/18px = 1 */
+  text-align: center;
+}
+
+header a.title{ 
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  color: #252445; /* www.hexcolortool.com */
+  font-size: 1.953111111111111em; /* 35.156 / 18px */
+  line-height: 1.2800091022869495; /* 22.5px * 2 / 35.156 */
+  padding-top: 0.6400045511434748em; /* 22.5px / 35.156 */
+  padding-bottom: 0.6400045511434748em; /* 22.5px / 35.156 */
+  text-decoration: none;
+}
+   
+a.title:hover {
+   color: #f0ca4c;
+}
+   
+a.title:active {
+   background: #bababa;
+}
+
+h2 a.post{ 
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  color: #252445; /* www.hexcolortool.com */
+  font-size: 1.2800091022869495; /* 22.5px * 2 / 35.156 */
+  line-height: 1.2800091022869495; /* 22.5px * 2 / 35.156 */
+  padding-top: 0.6400045511434748em; /* 22.5px / 35.156 */
+  padding-bottom: 0.6400045511434748em; /* 22.5px / 35.156 */
+  text-size-adjust: 100%;
+  text-decoration: none;
+}
+   
+a.post:hover {
+   color: #f0ca4c;
+}
+   
+a.post:active {
+   background: #bababa;
+}
+
 
 /* State Styles */
 /* Hint: JavaScript-based styles: .nojs, .js, .is-active, .is-hidden */
