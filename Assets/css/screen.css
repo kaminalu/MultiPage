@@ -79,9 +79,22 @@ table {
   line-height: 1.2800091022869495; /* 22.5px * 2 / 35.156 */
   padding-top: 0.6400045511434748em; /* 22.5px / 35.156 */
   padding-bottom: 0.6400045511434748em; /* 22.5px / 35.156 */
+  text-align: center;
  }
  
  h2 {
+  text-decoration: none;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  color: #f0ca4c; /* www.hexcolortool.com */
+  font-size: 1.953111111111111em; /* 35.156 / 18px */
+  line-height: 1.2800091022869495; /* 22.5px * 2 / 35.156 */
+  padding-top: 0.6400045511434748em; /* 22.5px / 35.156 */
+  padding-bottom: 0.6400045511434748em; /* 22.5px / 35.156 */
+  text-align: left;
+ }
+ 
+  h3 {
   font-family: 'Merriweather', serif;
   font-weight: bold;
   color: #333; /* www.hexcolortool.com */
@@ -92,7 +105,7 @@ table {
   text-align: left;
  }
  
-  h3 {
+   h4 {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 1em; /* 18px/18px = 1 */
