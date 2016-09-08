@@ -56,7 +56,7 @@ table {
 /* Hint: html element selectors: html, body, p, h2, etc. */
  
  body {
-  background-color: #9e9e9e; /* www.hexcolortool.com */
+  background-color: #b8b8b8; /* www.hexcolortool.com */
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 1em; /* 18px/18px = 1 */
@@ -74,7 +74,7 @@ table {
   text-decoration: none;
   font-family: 'Merriweather', serif;
   font-weight: bold;
-  color: #f0ca4c; /* www.hexcolortool.com */
+  color: #ffe466; /* www.hexcolortool.com */
   font-size: 1.953111111111111em; /* 35.156 / 18px */
   line-height: 1.2800091022869495; /* 22.5px * 2 / 35.156 */
   padding-top: 0.6400045511434748em; /* 22.5px / 35.156 */
@@ -86,7 +86,7 @@ table {
   text-decoration: none;
   font-family: 'Merriweather', serif;
   font-weight: bold;
-  color: #f0ca4c; /* www.hexcolortool.com */
+  color: #ffe466; /* www.hexcolortool.com */
   font-size: 1.953111111111111em; /* 35.156 / 18px */
   line-height: 1.2800091022869495; /* 22.5px * 2 / 35.156 */
   padding-top: 0.6400045511434748em; /* 22.5px / 35.156 */
@@ -136,7 +136,7 @@ img {
 
 #header {
   font-weight: 500;
-  color: #f0ca4c; /* www.hexcolortool.com */
+  color: #ffe466; /* www.hexcolortool.com */
   text-align: center;
   padding-bottom: 1em;
   text-decoration: none;
@@ -180,9 +180,19 @@ img {
   display:none;
 }
 
+.screencontact {
+  text-align: center;
+  padding-bottom: 1%
+}
+
+.screencontact2 {
+  text-align: center;
+  padding-bottom: 1%
+}
+
 .email {
   padding-left: 5%;
-  padding-right: 5%;
+  padding-right: 0%;
   display: inline-block;
   vertical-align: middle;
   color: #252445;
@@ -193,8 +203,8 @@ img {
 }
 
 .phone {
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
   display: inline-block;
   vertical-align: middle;
   color: #252445;
@@ -205,7 +215,7 @@ img {
 }
 
 .address {
-  padding-left: 5%;
+  padding-left: 0%;
   padding-right: 5%;
   display: inline-block;
   vertical-align: middle;
@@ -222,7 +232,7 @@ a.address:hover {
 
 .listheader1 { 
   font-weight: 500;
-  color: #f0ca4c; /* www.hexcolortool.com */
+  color: #ffe466; /* www.hexcolortool.com */
 }
 
 .listheader2 { 
@@ -350,7 +360,7 @@ a.post:active {
 
 /* Media Query Styles */
 
-@media screen and (min-width: 33.333333333333336em) {
+@media screen and (min-width: 725px) {
   a.button {
    font-size: 1em;
    padding: 5px 20px;
@@ -366,3 +376,4 @@ a.post:active {
   padding-top: 25%;
    }
 }
+
