@@ -74,7 +74,7 @@ table {
   text-decoration: none;
   font-family: 'Merriweather', serif;
   font-weight: bold;
-  color: #FFCD38; /* sunflower */
+  color: #FFCD38; /* sunglow */
   font-size: 1.953111111111111em; /* 35.156 / 18px */
   line-height: 1.2800091022869495; /* 22.5px * 2 / 35.156 */
   padding-top: 0.6400045511434748em; /* 22.5px / 35.156 */
@@ -86,7 +86,7 @@ table {
   text-decoration: none;
   font-family: 'Merriweather', serif;
   font-weight: bold;
-  color: #FFCD38; /* sunflower */
+  color: #FFCD38; /* sunglow */
   font-size: 1.953111111111111em; /* 35.156 / 18px */
   line-height: 1.2800091022869495; /* 22.5px * 2 / 35.156 */
   padding-top: 0.6400045511434748em; /* 22.5px / 35.156 */
@@ -136,7 +136,7 @@ img {
 
 #header {
   font-weight: 500;
-  color: #FFCD38; /* sunflower */
+  color: #FFCD38; /* sunglow */
   text-align: center;
   padding-bottom: 1em;
   text-decoration: none;
@@ -232,20 +232,20 @@ a.address:hover {
 
 .listheader1 { 
   font-weight: 500;
-  color: #FFCD38; /* sunflower */
+  color: #FFCD38; /* sunglow */
 }
 
 .listheader2 { 
   font-weight: bold;
   font-size: 1em; /* 18px/18px = 1 */
-  color: #333; /* www.hexcolortool.com */
+  color: #F3F3F3; /* white smoke */
 }
 
 .list { 
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 1em; /* 18px/18px = 1 */
-  color: #333;  
+  color: #F3F3F3; /* white smoke */  
   list-style: circle inside;
 }
 
@@ -253,31 +253,37 @@ a.address:hover {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 1em; /* 18px/18px = 1 */
-  color: #333;  
+  color: #F3F3F3; /* white smoke */  
   list-style: circle inside;
 }
 
-a.button { /* https://css-tricks.com/examples/ButtonMaker/# */
-   border: 1px solid #7a387d;
-   padding: 2px 9px;
-   color: #252445;
-   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-   font-weight: 400;
-   font-size: 0.8em;
-   text-decoration: none;
-   vertical-align: middle;
-   display: block;
-   }
-   
-a.button:hover {
-   background: #ed96ed;
-   color: #252445;
-   }
-   
-a.button:active {
-   border: #f0ca4c;
-   background: #f0ca4c;
-   }
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #4A4A4A; /* charcoal */
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #F3F3F3; /* white smoke */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #00A5AA; /* dark cyan */
+    color: #F3F3F3; /* white smoke */
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #FFCD38; /* sunglow */
+    color: #F3F3F3; /* white smoke */
+}
 
 .content {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
