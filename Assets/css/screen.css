@@ -119,6 +119,18 @@ table {
   text-align: left;
  }
  
+ h5 {
+  text-decoration: none;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  color: #FFCD38; /* sunglow */
+  font-size: 1.953111111111111em; /* 35.156 / 18px */
+  line-height: 1.2800091022869495; /* 22.5px * 2 / 35.156 */
+  padding-top: 0.6400045511434748em; /* 22.5px / 35.156 */
+  padding-bottom: 0.6400045511434748em; /* 22.5px / 35.156 */
+  text-align: left;
+ }
+ 
 p {
   line-height: 1.25em; /* 22.5px / 18px */
   padding-bottom: 1.25em; /* 22.5px / 18px */
@@ -136,10 +148,14 @@ img {
 
 #header {
   font-weight: 500;
-  color: #FFCD38; /* sunglow */
-  text-align: center;
-  padding-bottom: 1em;
-  text-decoration: none;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  color: #F3F3F3; /* white smoke */
+  font-size: 1.25em; /* 22.5px / 18px */
+  line-height: 1.2800091022869495; /* 22.5px * 2 / 35.156 */
+  padding-top: 0.6400045511434748em; /* 22.5px / 35.156 */
+  padding-bottom: 0.6400045511434748em; /* 22.5px / 35.156 */
+  text-align: left;
 }
 
 #footer {
@@ -175,6 +191,7 @@ img {
 .profile { /*consider removing this image from html, if no longer needed */
   background-color: #00A5AA; /* dark cyan */
   display: block;
+  padding-left: 100px;
   max-width: 100%;
   text-align: center;
 }
@@ -313,6 +330,23 @@ a.address:hover {
 .text {
   background: #bababa;
   padding: 12.5%;
+}
+
+.header img {
+  float: left;
+  width: 70px;
+  height: 70px;
+  padding-top: 6px;
+  padding-right: 1em;
+  padding-left: 6px;
+}
+
+.profile h1{
+  text-align: left;
+}
+
+.profile p{
+  text-align: left;
 }
 
 img.avatar {
