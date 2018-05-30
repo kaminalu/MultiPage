@@ -172,10 +172,14 @@ img {
   padding-right: 12.5%;
 }
 
-.skyline { /*consider removing this image from html, if no longer needed */
-  display:none;
+.profile { /*consider removing this image from html, if no longer needed */
+  background-color: #00A5AA; /* dark cyan */
+  display: block;
+  max-width: 100%;
+  text-align: center;
 }
 
+/*CONTACT INFO*/
 .printcontact {
   display:none;
 }
@@ -229,7 +233,8 @@ img {
 a.address:hover {
    display: alt-text;
    }
-
+   
+/*LISTS*/
 .listheader1 { 
   font-weight: 500;
   color: #FFCD38; /* sunglow */
@@ -257,6 +262,7 @@ a.address:hover {
   list-style: circle inside;
 }
 
+/*TOP NAVIGATION*/
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #4A4A4A; /* charcoal */
@@ -275,13 +281,13 @@ a.address:hover {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #00A5AA; /* dark cyan */
-    color: #F3F3F3; /* white smoke */
+    background-color: #FFCD38; /* sunglow */
+    color: #4A4A4A; /* charcoal */
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #FFCD38; /* sunglow */
+    background-color: #00A5AA; /* dark cyan */
     color: #F3F3F3; /* white smoke */
 }
 
@@ -367,19 +373,12 @@ a.post:active {
 /* Media Query Styles */
 
 @media screen and (min-width: 725px) {
-  a.button {
-   font-size: 1em;
-   padding: 5px 20px;
-   display: inline;
-   }
-  .figure {
-  background-image: url(/Assets/img/skyline.jpg); 
-  background-repeat: no-repeat; 
-  background-position: left top; 
-  background-size: 100%;
-  padding-left: 37.5%;
-  padding-right: 37.5%;
-  padding-top: 25%;
-   }
+
+.profile { 
+  background-color: #00A5AA; /* dark cyan */
+  display: block;
+  padding-left: 400px;
+  max-width: 100%;
+  text-align: center;  
 }
 
