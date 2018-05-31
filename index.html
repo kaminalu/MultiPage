@@ -12,13 +12,24 @@
       <img src="Assets/img/AKlogoTransparent.png" alt="logo" />
       <h5>Amy Kamin - Program Coordinator</h5>
     </div>
-    <div class="topnav"> 
-      <a class="active" href="http://www.amykamin.com">Home</a>  
-      <a href="http://www.amykamin.com/resume/">Resume</a>  
-      <a href="http://www.amykamin.com/skills/">Goals + Interests + Skills</a> 
-      <a href="http://www.amykamin.com/writing/">Portfolio</a>      
-      <a href="http://www.amykamin.com/contact/">Contact</a>
-    </div> 
+    <nav role="navigation"> <!--Erik Terwan-->
+      <div id="menuToggle">
+        <!--A fake / hidden checkbox is used as click reciever, so you can use the :checked selector on it.-->
+        <input type="checkbox" />
+        <!--Some spans to act as a hamburger.-->
+        <span></span>
+        <span></span>
+        <span></span>
+        <!--Menu inside of the button-->
+        <ul id="menu">
+          <a href="http://www.amykamin.com"><li>Home</li></a>
+          <a href="http://www.amykamin.com/resume/"><li>Resume</li></a>
+          <a href="http://www.amykamin.com/skills/"><li>Goals + Interests + Skills</li></a>
+          <a href="http://www.amykamin.com/writing/"><li>Portfolio</li></a>
+          <a href="http://www.amykamin.com/contact/"><li>Contact</li></a>
+        </ul>
+      </div>
+    </nav> 
     <div class="profile" role="img" aria-labelledby="profile">
       <img src="/Assets/img/prof-long.jpg" alt="Professional photo of Amy Kamin." />
     </div>
