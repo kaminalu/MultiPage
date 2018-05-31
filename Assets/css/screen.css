@@ -188,10 +188,9 @@ img {
   padding-right: 12.5%;
 }
 
-.profile { /*consider removing this image from html, if no longer needed */
+.profile { 
   background-color: #00A5AA; /* dark cyan */
   display: block;
-  padding-left: 100px;
   max-width: 100%;
   text-align: center;
 }
@@ -419,13 +418,11 @@ a.post:active {
 
 /* Media Query Styles */
 
-@media screen and (min-width: 725px) {
-
-.profile { 
-  background-color: #00A5AA; /* dark cyan */
-  display: block;
-  padding-left: 400px;
-  max-width: 100%;
-  text-align: center;  
+@media screen and (min-width: 840px) {
+    
+  body {
+    width: 70%;
+    padding-left: 15%;
+  }
 }
 
