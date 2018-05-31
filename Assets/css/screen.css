@@ -279,14 +279,29 @@ a.address:hover {
   list-style: circle inside;
 }
 
+/*List Link Styles*/
+.list a:link{
+  color: #00dee6; /* cyan */
+  text-shadow: 0 0 1px #999;
+  text-decoration: none;
+}
+
+.list a:visited{
+  color: #00A5AA; /* dark cyan */
+  text-decoration: none;
+}
+
+.list a:active { 
+  padding-top: 2px; 
+}
+
 /*TOP NAVIGATION*/
-/* Add a black background color to the top navigation */
 .topnav {
     background-color: #4A4A4A; /* charcoal */
     overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
+/* Top navigation link styles */
 .topnav a {
     float: left;
     color: #F3F3F3; /* white smoke */
@@ -296,13 +311,11 @@ a.address:hover {
     font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
     background-color: #FFCD38; /* sunglow */
     color: #4A4A4A; /* charcoal */
 }
 
-/* Add a color to the active/current link */
 .topnav a.active {
     background-color: #00A5AA; /* dark cyan */
     color: #F3F3F3; /* white smoke */
