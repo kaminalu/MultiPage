@@ -8,12 +8,30 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400|Merriweather' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <header id="header"> <a href="http://www.amykamin.com" class="button">Home</a>  <a href="http://www.amykamin.com/Resume/" class="button">Resume</a>  <a href="http://www.amykamin.com/Skills/" class="button">Goals + Interests + Skills</a> <a href="http://www.amykamin.com/writing/" class="button">Portfolio</a> </header>
-    <div class="figure" role="img" aria-labelledby="city-snow">
-      <img src="/Assets/img/city-snow.png" alt="Photo of Amy in Chicago, it is snowing." />
+    <div class="header">
+      <img src="Assets/img/AKlogoTransparent.png" alt="logo" />
+      <h5>Amy Kamin - Program Coordinator</h5>
     </div>
-    <div class="skyline" role="img" aria-labelledby="skyline">
-      <img src="/Assets/img/skyline.jpg" alt="Photo of Chicago skyline taken from Adler Planetarium." />
+    <nav role="navigation"> <!--Erik Terwan-->
+      <div id="menuToggle">
+        <!--A fake / hidden checkbox is used as click reciever, so you can use the :checked selector on it.-->
+        <input type="checkbox" />
+        <!--Some spans to act as a hamburger.-->
+        <span></span>
+        <span></span>
+        <span></span>
+        <!--Menu inside of the button-->
+        <ul id="menu">
+          <a href="http://www.amykamin.com"><li>Home</li></a>
+          <a href="http://www.amykamin.com/resume/"><li>Resume</li></a>
+          <a href="http://www.amykamin.com/skills/"><li>Goals</li></a>
+          <a href="http://www.amykamin.com/writing/"><li>Portfolio</li></a>
+          <a href="http://www.amykamin.com/contact/"><li>Contact</li></a>
+        </ul>
+      </div>
+    </nav> 
+    <div class="profile" role="img" aria-labelledby="profile">
+      <img src="/Assets/img/prof-long.jpg" alt="Professional photo of Amy Kamin." />
     </div>
     <h2> Hello there. </h2>
     <p>
@@ -25,7 +43,9 @@
     <p>
       -Amy
     </p>
-    <footer id="footer"> Last updated: <time datetime="2017-08-17T18:25">May 30th, 2018</time> </footer>
-    <script src="modernizr.js"></script>
+    <footer id="footer"> Last updated: <time datetime="2017-08-17T18:25">May 31st, 2018</time> || Copyright &copy; Amy Kamin || amykamin@hotmail.com  ||  <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+<script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/amy-kamin" data-format="click" data-related="false"></script> 
+    </footer>
+    <script src="/Assets/js/modernizr.js"></script>
   </body>
 </html>
