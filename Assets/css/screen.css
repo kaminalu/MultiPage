@@ -415,9 +415,9 @@ a:hover{
     float: left;
     color: #F3F3F3; /* white smoke */
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 12px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 12px;
 }
 
 .topnav a:hover {
@@ -534,7 +534,7 @@ a.post:active {
 
 /* Media Query Styles */
 
-@media screen and (min-width: 840px) {
+@media screen and (min-width: 768px) {
     
   body {
     width: 70%;
@@ -548,7 +548,7 @@ a.post:active {
     padding-top: 6px;
     padding-right: 1em;
     padding-left: 6px;
-}
+  }
 
   .header h5 {
     text-decoration: none;
@@ -560,5 +560,13 @@ a.post:active {
     padding-top: 0.6400045511434748em; /* 22.5px / 35.156 */
     padding-bottom: 0.6400045511434748em; /* 22.5px / 35.156 */
     text-align: left;
- }
-
+  }
+ 
+.topnav a {
+    float: left;
+    color: #F3F3F3; /* white smoke */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
