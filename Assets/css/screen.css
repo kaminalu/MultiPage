@@ -137,6 +137,10 @@ p {
   text-align: left;
 }
 
+li {
+  padding: 0.6400045511434748em; /* 22.5px / 35.156 */
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -266,7 +270,7 @@ a.address:hover {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 1em; /* 18px/18px = 1 */
-  color: #F3F3F3; /* white smoke */  
+  color: #F3F3F3; /* white smoke */
   list-style: circle inside;
 }
 
