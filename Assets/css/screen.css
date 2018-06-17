@@ -275,15 +275,17 @@ a.address:hover {
 }
 
 .sublist { 
+  padding-left: 2%;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 1em; /* 18px/18px = 1 */
   color: #F3F3F3; /* white smoke */  
-  list-style: circle inside;
+  list-style: disc inside;
 }
 
 /*List Link Styles*/
 .list a:link{
+  font-weight: 400;
   color: #00dee6; /* cyan */
   text-shadow: 0 0 1px #999;
   text-decoration: none;
